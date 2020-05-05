@@ -8,7 +8,7 @@ module.exports = ({ errors }) => {
     <div class="column is-one-quarter">
       <form ref='uploadForm' 
       id='uploadForm' 
-      action='/admin/product/new' 
+      action='/admin/products/new' 
       method='post' 
       encType="multipart/form-data">
         <h1 class="title">Add Product</h1>

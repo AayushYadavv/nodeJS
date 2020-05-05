@@ -1,5 +1,7 @@
-module.exports = ({div}) => {
-    return `
+/** @format */
+
+module.exports = ({ div }) => {
+  return `
     <!DOCTYPE html>
       <html lang="en">
       <head>
@@ -34,5 +36,6 @@ module.exports = ({div}) => {
           ${div}
         </div>
       </body>
-    </html>`
-}
+  
+    </html>`;
+};
